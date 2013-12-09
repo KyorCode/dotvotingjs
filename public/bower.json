@@ -1,0 +1,21 @@
+{
+  "name": "dotvoting",
+  "version": "0.0.0",
+  "homepage": "https://github.com/KyorCode/dotvotingjs",
+  "authors": [
+    "kyorcode <t-c@live.be>"
+  ],
+  "description": "DotvotingJS",
+  "main": "dotvoting.js",
+  "keywords": [
+    "dotvoting"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "reveal.js": "~2.6.0",
+    "requirejs": "~2.1.9"
+  }
+}

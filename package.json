@@ -1,0 +1,38 @@
+{
+  "name": "dotvoting",
+  "version": "0.0.0",
+  "description": "DotVotingJs",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KyorCode/dotvotingjs.git"
+  },
+  "keywords": [
+    "dotvoting"
+  ],
+  "author": "KyorCode (t-c@live.be)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyorCode/dotvotingjs/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-less": "~0.8.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-markdown": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "bower": "~1.2.7",
+    "grunt-bower-task": "~0.3.4"
+  },
+  "dependencies": {
+    "express": "~3.4.5",
+    "express-dot": "~0.1.0",
+    "winston": "~0.7.2",
+    "findit": "~1.1.0"
+  }
+}

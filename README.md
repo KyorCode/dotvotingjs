@@ -1,2 +1,4 @@
-dotvotingjs
-===========
+DotVotingJS
+=============
+
+DotVotingJS
