@@ -89,7 +89,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-markdown');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bower-task');
-    grunt.loadNpmTasks('grunt-contrib-watcher');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('build', ['jshint', 'less:build', 'uglify:build', 'markdown:all']);
     grunt.registerTask('install', ['bower:webapp']);
